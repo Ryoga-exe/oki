@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": true
+  },
+  "imports": {
+    "dotenv": "https://deno.land/std@0.219.0/dotenv/mod.ts",
+    "discordeno": "https://deno.land/x/discordeno@17.1.0/mod.ts"
+  },
+  "tasks": {
+    "dev": "deno run -A --watch src/main.ts",
+    "start": "deno run -A --watch src/main.ts"
+  },
+  "lint": {
+    "incluce": ["src/"]
+  },
+  "fmt": {
+    "incluce": ["src/"]
+  }
+}
