@@ -1,4 +1,4 @@
-import { load } from "dotenv"
+import { load } from "dotenv";
 
 await load({
   envPath: ".env.local",
